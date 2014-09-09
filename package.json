@@ -1,0 +1,29 @@
+{
+  "name": "stock-gauge",
+  "version": "1.0.0",
+  "description": "Fetches stock data to store in a dash gauge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpiderStrategies/stock-gauge.git"
+  },
+  "keywords": [
+    "stock",
+    "gauge",
+    "dash"
+  ],
+  "author": "Nathan Bowser <nathan.bowser@spiderstrategies.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpiderStrategies/stock-gauge/issues"
+  },
+  "homepage": "https://github.com/SpiderStrategies/stock-gauge",
+  "dependencies": {
+    "request": "^2.42.0",
+    "split": "^0.3.0",
+    "stream-reduce": "^1.0.3"
+  }
+}
